@@ -1,2 +1,2 @@
 # Single Page Site
-### Theme- Spa
+### Theme-TRIPS |TRAVEL THE WORLD
