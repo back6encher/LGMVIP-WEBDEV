@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins&family=Reem+Kufi&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Balsamiq Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Rubik', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+#header{
+    transition: 0.5s;
+}
+#navbar{
+    transition: 0.5s;
+    background-color: rgba(126, 229, 233, 0.34);
+}
+h5{
+    font-size: 1.8rem !important;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+button{
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    transition: 0.5s;
+}
+li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.heading{
+    font-size: 3.5rem;
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 600;
+    text-align: center;
+}
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-brand{
+    font-size: 2vw !important;
+    color: #fff !important;
+}
+.navbar-toggler{
+    position:absolute;
+    right:5vw;
+}
+#logo{
+    width:10%;
+    height:100%;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem !important;
+    color: #fff !important;
+    font-family: 'Reem Kufi', sans-serif !important;
+    transition: .5s;
+}
+.nav-link:hover{
+    color: aquamarine !important;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 20rem;
+    left: -95rem;
+}
+.carousel-indicators li{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+.carousel-caption{
+    top: 18rem;
+    text-align: left;
+}
+.carousel-caption h1{
+    font-size: 3.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+    word-spacing: 0.1rem;
+}
+.carousel-caption p{
+    font-size: 1.5rem;
+    max-width: 60rem;
+}
+.carousel-caption button{
+    background: darkblue;
+    color: #fff;
+}
+.carousel-caption button, .second_row button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin: 2rem 1rem 0 0;
+    border: 0;
+    outline: none;
+    color: #fff;
+    transition: .5s;
+}
+.carousel-caption button:hover{
+    background: rgb(105, 205, 212);
+    color: #000;
+}
+.w-100{
+    height: 85vh;
+}
+#home{
+    margin-top: -25vh;
+}
+.first_row p{
+    font-size: 2rem;
+    color: #030127;
+}
+.icon_spa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom:30px;
+}
+.icon_spa i{
+    font-size: 15rem !important;
+    color: rgba(0, 0, 0, 0.867) !important;
+}
+.icon{
+    text-align: center;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    margin: 1rem 0;
+}
+.icon i{
+    font-size: 2rem;
+    line-height: 6rem;
+    color: rgb(255, 255, 255);
+}
+.second_row button{
+    background: rgb(170, 214, 231);
+    color: rgb(0, 0, 0);
+}
+.second_row button:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.second_row h5{
+    font-size: 1.8rem !important;
+    color: rgb(0, 0, 0);
+    margin: 2rem 0;
+    font-weight: 600;
+}
+.second_row p{
+    font-size: 1.6rem;
+    color: #a0b8c2;
+}
+#services{
+    margin-top: -10vh;
+}
+.p_container{
+    cursor: pointer;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.p_container img{
+    height: 40rem !important;
+    width: auto !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.p_description{
+    height: 26rem !important; 
+    padding: 2rem 2.5rem ;
+    background: #a8dce9;
+    transition: 0.5s;
+}
+.p_description p{
+    font-size: 1.6rem;
+}
+.p_container:hover .p_description{
+    background: rgb(127, 187, 255);
+}
+.p_container:hover button{
+    background: darkblue;
+    color: #fff;
+}
+#combos{
+    margin-top: -10vh;
+}
+.combo_container button{
+    padding: 0.2rem 3rem !important;
+    background:rgb(214, 127, 255);
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size: 1.3rem !important;
+}
+.combo_container{
+    font-size: 1.6rem;
+}
+.combo_container h5{
+    font-weight: bold;
+}
+.combo_container button:hover
+{
+    background: rgb(200, 200, 218);
+    color: #fff;
+}
+.combo_container:nth-child(2){
+    border-left: 0.2rem solid #b2bec3;
+    border-right: 0.2rem solid #b2bec3;
+}
+#price{
+    color:rgb(104, 93, 93);
+    font-size: 1.6rem;
+}
+#video_projects .carousel{
+    height: 30rem;
+}
+.video .caption p{
+    color:darkblue;
+    font-size: 2rem;
+}
+#team{
+    margin-top: -8vh;
+}
+.card_container .image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card_container .social_icons{
+    position: absolute;
+    top: 0;
+    left:5.2rem;
+    bottom: 0;
+    right: 0;
+    width: 15rem;
+    height:15rem;
+    border-radius: 50%;
+    background: rgba(206, 100, 228, 0.486);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social_icons i{
+    color: rgb(22, 18, 18);
+    font-size: 2rem;
+
+}
+.card_container:hover .social_icons{
+    opacity: 1;
+}
+#LIZ img{
+    width: 60rem !important;
+    height: 35rem !important;
+    object-fit: cover;
+}
+#LIZ .owl_carousel{
+    height: 10rem !important;
+    max-width: 80rem !important;
+    margin: auto;
+}
+#LIZ .image img{
+    height: 10rem !important;
+    width: 10rem !important;
+    object-fit: cover;
+    cursor: pointer;
+}
+.prev,.next{
+    font-size: 5rem;
+    color:darkblue;
+    position:relative;
+    top:6vh;
+}
+#lifepics{
+    display:flex;
+    margin-left: -2vw;
+}
+#newsletter {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/PA.webp);
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+#newsletter .input_signup{
+    height: 17rem;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#newsletter .input_signup input{
+    max-width: 35rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    color: darkblue;
+}
+#newsletter .input_signup button{
+    height: 4rem;
+    font-size: 1.4rem;
+    margin-left: 0.8rem;
+    color: #000;
+    font-weight: 600;
+    background: rgb(230, 170, 188);
+    padding: 1rem 0.8rem;
+}
+#newsletter .input_signup button:hover {
+    background: rgb(198, 198, 241);
+    color: #fff;
+}
+#blog{
+    margin-top: -2vh;
+}
+#blog img{
+    height: 15rem;
+    width: 20rem;
+}
+#blog button{
+    background: rgb(179, 126, 228);
+    font-weight: 600;
+}
+#blog button:hover{
+    background: rgb(161, 161, 194);
+    color:white;
+}
+#contact{
+    margin-top: -3vh;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 65rem;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 65rem;
+}
+.gmap_iframe {
+    height:65rem !important;
+}
+#contact .contact_form{
+    background: rgb(184, 183, 252);
+}
+#contact form label{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#contact form input, #contact form textarea{
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+}
+#contact form button{
+    background: rgb(168, 168, 255);
+    color: #fff;
+    font-weight: 600;
+}
+#contact form button:hover{
+    background: white;
+    color: rgb(138, 105, 165);
+}
+#smedia i{
+    font-size: 2rem;
+    margin:0.5rem;
+}
+/* Responsive code */
+@media(max-width:1206px)
+{
+    .card_container .social_icons{
+        left: 3.2rem;
+    }
+}
+@media(max-width:766px)
+{
+    .card_container .social_icons{
+        left: 15.2rem;
+    }
+}
+@media(max-width:540px)
+{
+    .card_container:hover .social_icons{
+        opacity: 0;
+    }
+}
